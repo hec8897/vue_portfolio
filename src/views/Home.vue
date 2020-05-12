@@ -8,14 +8,17 @@
     </transition>
 
     <transition name="fadeup">
-    <mainlist cate='퍼블리싱' v-bind:dataList="List2"  v-if="show>3"/>
+    <mainlist cate='퍼블리싱' v-bind:dataList="List2"  v-if="show>0"/>
     </transition>
 
     <transition name="fadeup">
-    <mainlist cate='개발' v-bind:dataList="List3" v-if="show>6"/>
+    <mainlist cate='개발' v-bind:dataList="List3" v-if="show>0"/>
     </transition>
-    
-    <banner  v-if="show>9"/>
+
+    <transition name="fadeup">
+      <banner  v-if="show>3"/>
+    </transition>
+
 
 
   </div>
@@ -77,7 +80,7 @@ export default {
 
             let bottom = Math.max(bodyHeight - (scrollPosition + windowSize), 0)
 
-            if (bottom <= 800) {
+            if (bottom <= 300) {
               this.show +=0.5;
             }
       }
