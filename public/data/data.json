@@ -3,60 +3,182 @@
         "idx":0,
         "title":"보험친구들",
         "siteUrl":"http://bmcompany.kr/",
-        "thumnail":"img-0/thumnail.jpg"
+        "thumnail":"img-0/thumnail.jpg",
+        "class":"public",
+        "navClass":"dev",
+        "pub":true,
+        "dev":true,
+        "makeby":{
+            "fn":"less,es6",
+            "Bn":"PHP mysql"
+        }
     },
     {
         "idx":1,
         "title":"씨이오메이커",
         "siteUrl":"http://http://ceomaker.kr/",
-        "thumnail":"img-1/thumnail.jpg"
+        "thumnail":"img-1/thumnail.jpg",
+        "class":"public",
+        "navClass":"dev",
+        "pub":false,
+        "dev":true,
+        "makeby":{
+            "fn":"css,es6",
+            "Bn":"PHP mysql"
+        }
     },
     {
         "idx":2,
         "title":"투게더인스",
         "siteUrl":"https://hec8897.github.io/randpage/together/",
-        "thumnail":"img-2/thumnail.jpg"
+        "thumnail":"img-2/thumnail.jpg",
+        "class":"public",
+        "pub":true,
+        "dev":false,
+        "navClass":"pub",
+        "makeby":{
+            "fn":"css,es6",
+            "Bn":""
+        }
     },
     {
         "idx":3,
         "title":"율디자인",
         "siteUrl":"http://yuldesign.kr/",
-        "thumnail":"img-3/thumnail.jpg"
+        "thumnail":"img-3/thumnail.jpg",
+        "class":"public",
+        "pub":false,
+        "dev":true,
+        "navClass":"vue",
+        "makeby":{
+            "fn":"css,es6,vue.js",
+            "Bn":"PHP mysql"
+        }
     },
     {
         "idx":4,
         "title":"금강이앤씨",
         "siteUrl":"http://kumkangenc.kr/",
-        "thumnail":"img-4/thumnail.jpg"
+        "thumnail":"img-4/thumnail.jpg",
+        "class":"public",
+        "pub":true,
+        "dev":true,
+        "navClass":"vue",
+        "makeby":{
+            "fn":"css,es6,vue.js",
+            "Bn":"PHP mysql"
+        }
     },
     {
         "idx":5,
         "title":"디비플레이스",
         "siteUrl":"http://dbplace.kr/",
-        "thumnail":"img-5/thumnail.jpg"
+        "thumnail":"img-5/thumnail.jpg",
+        "class":"public",
+        "pub":true,
+        "dev":true,
+        "navClass":"vue",
+        "makeby":{
+            "fn":"scss,es6,vue.js",
+            "Bn":"PHP mysql"
+        }
     },
     {
         "idx":6,
         "title":"재무검사랜딩페이지1",
         "siteUrl":"http://dbplace.kr/lifeup/index.html",
-        "thumnail":"img-6/thumnail.jpg"
+        "thumnail":"img-6/thumnail.jpg",
+        "class":"public",
+        "pub":true,
+        "dev":true,
+        "navClass":"pub",
+        "makeby":{
+            "fn":"css,es6",
+            "Bn":"PHP mysql"
+        }
     },
     {
         "idx":7,
         "title":"fx-one",
         "siteUrl":"http://dhimc.co.kr/mt.html",
-        "thumnail":"img-7/thumnail.jpg"
+        "thumnail":"img-7/thumnail.jpg",
+        "class":"public",
+        "pub":true,
+        "dev":false,
+        "navClass":"pub",
+        "makeby":{
+            "fn":"css",
+            "Bn":""
+        }
     },
     {
         "idx":8,
         "title":"관리자페이지",
-        "siteUrl":"http://dbplace.kr/",
-        "thumnail":"img-8/thumnail.jpg"
+        "siteUrl":"http://kumkangenc.kr/admin/",
+        "thumnail":"img-8/thumnail.jpg",
+        "class":"public",
+        "pub":false,
+        "dev":true,
+        "navClass":"dev",
+        "makeby":{
+            "fn":"css,es6,vue.js",
+            "Bn":"PHP mysql"
+        }
     },
     {
         "idx":9,
         "title":"BM DB관리자페이지",
         "siteUrl":"http://dbplace.kr/bmadmin",
-        "thumnail":"img-9/thumnail.jpg"
+        "thumnail":"img-9/thumnail.png",
+        "class":"public",
+        "pub":false,
+        "dev":true,
+        "navClass":"dev",
+        "makeby":{
+            "fn":"less,es6",
+            "Bn":"PHP mysql"
+        }
+    },
+    {
+        "idx":10,
+        "title":"유전자검사 랜딩페이지",
+        "siteUrl":"http://dbplace.kr/default_lifecare/index.html",
+        "thumnail":"img-10/thumnail.jpg",
+        "class":"public",
+        "pub":true,
+        "dev":false,
+        "navClass":"pub",
+        "makeby":{
+            "fn":"less,es6",
+            "Bn":"PHP mysql"
+        }
+    },
+    {
+        "idx":11,
+        "title":"상담사 개인 랜딩페이지",
+        "siteUrl":"http://dbplace.kr/bminsu/index.html?key=sample",
+        "thumnail":"img-11/thumnail.jpg",
+        "class":"public",
+        "pub":true,
+        "dev":true,
+        "navClass":"dev",
+        "makeby":{
+            "fn":"less,es6",
+            "Bn":"PHP mysql"
+        }
+    },
+    {
+        "idx":12,
+        "title":"쇼핑몰 마케팅 과정 랜딩페이지",
+        "siteUrl":"http://ceomaker.kr/shopping/",
+        "thumnail":"img-12/thumnail.jpg",
+        "class":"public",
+        "pub":true,
+        "dev":false,
+        "navClass":"pub",
+        "makeby":{
+            "fn":"css",
+            "Bn":""
+        }
     }
 ]

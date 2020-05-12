@@ -1,0 +1,62 @@
+<template>
+    <footer>
+        <h2>Contact</h2>
+        <p>웹 개발자 김다운</p>
+        <div class="foot wrap">
+            <ul>
+                <li>
+                    <img src='../../assets/touch-screen.png'>
+                    <h3>Phone</h3>
+                    <p>010-2386-6487</p>
+                </li>
+                <li>
+                    <img src='../../assets/communications.png'>
+                      <h3>Email</h3>
+                    <p>hec8897@naver.com</p>
+                </li>
+                <li>
+                    <img src='../../assets/interface.png'>
+                      <h3>Address</h3>
+                      <p>경기도 김포시 걸포1로 40 104동 903호</p>
+                </li>
+            </ul>
+            
+
+        </div>
+    </footer>
+</template>
+
+<style lang="scss">
+footer{
+    margin-top: 50px;
+    h2{
+        text-align: center;
+        font-size: 1.875rem;
+    }
+    p{
+        text-align: center;
+        margin: 20px 0px;
+    }
+    ul{
+        text-align: center;
+        margin-bottom: 50px;
+        li{
+            display: inline-block;
+            width: 33%;
+            border-right: 1px solid #d0d0d0;
+            box-sizing: border-box;
+            padding: 50px 0px;
+            &:last-child{
+                border-right: 0;;
+            }
+            img{
+                width: 65px;
+            }
+            h3{
+                margin: 15px 0px;
+            }
+        }
+    }
+}
+    
+</style>
