@@ -106,6 +106,10 @@ $MainColor:#ffd400;
         max-width: 1200px;
         margin: 0 auto;
         position: relative;
+        @media (max-width:1200px) {
+            max-width: 95%;
+            
+        }
     }
 
 }

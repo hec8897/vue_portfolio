@@ -2,8 +2,7 @@
     <div class='wrap main-list main-list1'>
         <h2>{{cate}}</h2>
         <carousel 
-                :per-page="5" 
-                tag='div' 
+                :per-page-custom=[[960,5],[768,4],[480,3],[360,2]]
                 paginationColor="#d0d0d0" 
                 paginationActiveColor="#ffd400">
                 <slide v-for="(list,index) in lists" :key="index" @slideclick="ItemClick(list)">
@@ -50,7 +49,12 @@ div.main-list{
     h2{
         font-size: 1.25rem;
         margin: 20px 0px;
+        @media (max-width: 767px) {
+            font-size: 1.125rem;
+            
+        }
     }
+ 
 }
     
 </style>

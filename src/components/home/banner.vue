@@ -19,12 +19,22 @@
             background-image: url('../../assets/banner1.png');
             background-size: cover;
             background-position: center;
+               @media (max-width: 767px) {
+                text-align: center;
+                
+            }
         }
         h2{
             display: inline;
             font-size: 1.25rem;
             color: #fff;
             line-height: 1.5rem;
+               @media (max-width: 767px) {
+                    font-size: 1.125rem;
+
+               }
+
+         
         }
         div.btn{
             cursor: pointer;
@@ -38,6 +48,7 @@
             top: 50%;
             transform: translateY(-50%);
 
+            display: none;
         }
     }
     

@@ -12,7 +12,7 @@
                 <li>
                     <img src='../../assets/communications.png'>
                       <h3>Email</h3>
-                    <p>hec8897@naver.com</p>
+                      <p>hec8897@naver.com</p>
                 </li>
                 <li>
                     <img src='../../assets/interface.png'>
@@ -32,10 +32,15 @@ footer{
     h2{
         text-align: center;
         font-size: 1.875rem;
+       
     }
     p{
         text-align: center;
         margin: 20px 0px;
+        @media (max-width: 767px) {
+            font-size: 0.75rem;
+        }
+
     }
     ul{
         text-align: center;
@@ -49,11 +54,22 @@ footer{
             &:last-child{
                 border-right: 0;;
             }
+                @media (max-width: 767px) {
+                    vertical-align: top;
+                    padding: 50px 10px;
+                }
+
+
             img{
                 width: 65px;
+                @media (max-width: 767px) {
+                    width: 30px;
+            
+                }
             }
             h3{
                 margin: 15px 0px;
+       
             }
         }
     }

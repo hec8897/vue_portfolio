@@ -38,13 +38,20 @@ div.main-section1{
         left: 50%;
         transform: translate(-50%,-50%);
         text-align: center;
-
+        @media (max-width:1200px) {
+            top: 35%;
+        }
         p{
             margin: 15px 0px;
         }
         h1{
             font-size: 2rem;
             font-weight: normal;
+            
+            @media (max-width:767px) {
+                font-size: 1.4rem;
+            
+            }
         }
         div.input_box{
             cursor: pointer;

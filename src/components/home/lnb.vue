@@ -36,7 +36,6 @@
 <style lang="scss">
 nav{
     div.wrap{
-        max-width: 1200px;
         height: 150px;
         background: #fff;
         margin-top: -70px;
@@ -53,10 +52,22 @@ nav{
                 img{
                     max-width: 40px;
                     display: block;
-                    margin: 5px auto;
+                    margin: 5px auto;  
+                    vertical-align: middle;                
                 }
                 span{
                     font-size: .875rem;
+                }
+                @media (max-width:1200px) {
+                    margin: 6px;
+                    img{
+                        max-width: 30px;
+                    }
+                    span{
+                        font-size: .70rem;
+                        white-space: nowrap;
+                    }
+                        
                 }
                 &:hover{
                     transform: translateY(-5px);

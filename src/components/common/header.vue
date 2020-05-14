@@ -3,7 +3,6 @@
         <div class="head">
             <div class="wrap">
             <span>프론트 엔드 개발자 김다운 포트폴리오 (vue 버전입니다.)</span>
-       
             </div>
         </div>
         <div class="gnb wrap">
@@ -28,7 +27,6 @@ header{
     position: absolute;
 }
 div.head{
-
     text-align: left;
     padding: 10px 0px;
     border-bottom: 1px solid #d0d0d0;
@@ -37,21 +35,37 @@ div.head{
         font-size: 12px;
         color: #444;
         font-weight: normal;
+        @media (max-width: 767px) {
+            letter-spacing: -1px;
+            text-align: center;
+        }
     }
 }
 div.gnb{
     text-align: left;
     padding: 20px 0px;
     position: relative;
-    img{
+      img{
         width: 91px;
-    }
+        }
+        @media (max-width: 767px) {
+            text-align: center;
+            img{
+                width: 120px;
+            }
+        }
+
+  
     ul{
         position: absolute;
         right: 0;
         top: 50%;
         transform: translateY(-50%);
         display: inline-block;
+        @media (max-width: 767px) {
+            display: none;
+        }
+
         li{
             display: inline;
             margin-left: 20px;

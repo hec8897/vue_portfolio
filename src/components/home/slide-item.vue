@@ -10,7 +10,8 @@
 
 <script>
 export default {
-    props:['item']
+    props:['item'],
+     
 }
 </script>
 <style lang="scss">
@@ -42,6 +43,10 @@ div.prev_img{
                 font-weight: normal;
                 left: 5%;
                 bottom: 10%;
+            }
+           
+            img{
+                width: 20px;
             }
         &:hover{
             background-color: rgba(0,0,0,0.6);;
