@@ -19,9 +19,9 @@
     <transition name="fadeup">
     <mainlist cate='개발' v-bind:dataList="List3" v-if="show>0"/>
     </transition>
-    
+
     <transition name="fadeup">
-      <banner  v-if="show>0"/>
+      <banner  v-if="show > 0"/>
     </transition>
 
     <Record />

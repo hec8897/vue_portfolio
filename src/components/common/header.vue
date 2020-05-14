@@ -7,11 +7,11 @@
         </div>
         <div class="gnb wrap">
                 <img src="../../assets/vue_dawoon_logo.png">
-            <ul>
-                <li class='orange'>참여한 프로젝트</li>
+            <!-- <ul> -->
+                <!-- <li class='orange'>참여한 프로젝트</li>
                 <li>보유 기술</li>
                 <li>Contact</li>
-            </ul>
+            </ul> -->
         </div>
     </header>
 </template>
