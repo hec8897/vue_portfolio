@@ -11,8 +11,9 @@
 
 <style lang="scss">
     div.banner{
+        padding: 50px 0px;
+        box-sizing: border-box;
         position: relative;
-        margin: 100px auto;
         div.wrap{
             padding: 60px 20px;
             box-sizing: border-box;

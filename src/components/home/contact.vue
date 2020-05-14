@@ -28,8 +28,9 @@
 
 <style lang="scss">
 div.contact{
+        padding: 50px 0px;
+    box-sizing: border-box;
     h2{
-        margin-top: 100px;
         text-align: center;
         font-size: 1.875rem;
        
