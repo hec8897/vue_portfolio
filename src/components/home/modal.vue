@@ -10,6 +10,10 @@
                 <h2 v-html="portfolioData.title"></h2>
                 <h3 class='sub_tit' v-html="portfolioData.subTit"></h3>
 
+                <h4>개발기간</h4>
+                <p>{{portfolioData.term}}</p>
+
+
                 <h4>기술 스택</h4>
 
                 <ul>

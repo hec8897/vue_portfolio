@@ -1,6 +1,6 @@
 <template>
-    <footer>
-        <h2>Contact</h2>
+    <div class='contact'>
+        <h2>CONTACT</h2>
         <p>웹 개발자 김다운</p>
         <div class="foot wrap">
             <ul>
@@ -23,13 +23,13 @@
             
 
         </div>
-    </footer>
+    </div>
 </template>
 
 <style lang="scss">
-footer{
-    margin-top: 50px;
+div.contact{
     h2{
+        margin-top: 100px;
         text-align: center;
         font-size: 1.875rem;
        
